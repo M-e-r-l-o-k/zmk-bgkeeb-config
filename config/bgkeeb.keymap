@@ -11,10 +11,10 @@
 
         default {
             bindings = <
-&kp Q          &kp W         &kp E         &kp R           &kp T        &kp Y         &kp U           &lt 6 I       &kp O         &kp P
-&mt LCTRL A    &mt LGUI R    &mt LALT S    &mt LSHIFT T    &kp F        &lt 5 M       &mt RSHIFT N    &mt RALT E    &mt RGUI I    &mt RCTRL O
-&kp Z          &kp X         &kp C         &kp V           &kp B        &kp N         &kp M           &kp COMMA     &kp DOT       &kp FSLH
-               &kp F3        &kp DEL       &lt 1 RET       &lt 3 TAB    &lt 4 BSPC    &lt 2 SPACE     &kp SQT       &kp F4
+&kp Q             &kp W             &kp E          &kp R          &kp T          &kp Y                    &kp U                  &lt 6 I            &kp O         &kp P
+&mt LEFT_GUI A    &mt LEFT_ALT S    &mt LSHFT D    &mt LCTRL F    &kp G          &kp H                    &mt RCTRL J            &mt RIGHT_ALT K    &mt RGUI L    &mt RIGHT_GUI SEMICOLON
+&kp Z             &kp X             &kp C          &kp V          &kp B          &kp N                    &kp M                  &kp COMMA          &kp DOT       &kp FSLH
+                  &kp F3            &kp DEL        &lt 2 TAB      &lt 1 SPACE    &mt RIGHT_SHIFT ENTER    &mt RCTRL BACKSPACE    &lt 3 ESCAPE       &kp F4
             >;
         };
 
@@ -29,10 +29,10 @@
 
         sym {
             bindings = <
-&kp EXCL     &kp AT       &kp HASH           &kp DLLR            &kp PRCNT     &kp CARET    &kp AMPS             &kp ASTRK      &kp UNDER    &kp EQUAL
-&kp MINUS    &kp LBKT     &kp LBRC           &kp LPAR            &kp LT        &kp GT       &kp RPAR             &kp RBRC       &kp RBKT     &kp PLUS
-&kp CAPS     &kp GRAVE    &kp LC(LS(TAB))    &kp LC(LG(LEFT))    &caps_word    &trans       &kp LC(LG(RIGHT))    &kp LC(TAB)    &trans       &kp BSLH
-             &trans       &trans             &kp RET             &kp DEL       &kp BSPC     &trans               &trans         &trans
+&kp NUMBER_4    &kp NUMBER_2    &kp NUMBER_3         &kp NUMBER_1     &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_0           &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_7
+&kp CARET       &kp TILDE       &kp DOUBLE_QUOTES    &kp COLON        &kp AMPERSAND    &kp PLUS        &kp MINUS              &kp ASTERISK     &kp AT_SIGN     &kp EXCLAMATION
+&kp CAPS        &kp GRAVE       &kp SINGLE_QUOTE     &kp SEMICOLON    &kp DOLLAR       &kp EQUAL       &kp UNDERSCORE         &kp HASH         &kp PERCENT     &kp QUESTION
+                &trans          &trans               &trans           &trans           &kp PIPE        &mt LCTRL BACKSPACE    &kp BACKSLASH    &trans
             >;
         };
 
