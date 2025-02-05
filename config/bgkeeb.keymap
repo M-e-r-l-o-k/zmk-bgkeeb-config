@@ -11,9 +11,9 @@
 
         default {
             bindings = <
-&kp Q          &kp W         &kp F         &kp P           &kp B        &kp J         &kp L           &lt 6 U       &kp Y         &kp SEMI
+&kp Q          &kp W         &kp E         &kp R           &kp T        &kp Y         &kp U           &lt 6 I       &kp O         &kp P
 &mt LCTRL A    &mt LGUI R    &mt LALT S    &mt LSHIFT T    &kp G        &lt 5 M       &mt RSHIFT N    &mt RALT E    &mt RGUI I    &mt RCTRL O
-&kp Z          &kp X         &kp C         &kp D           &kp V        &kp K         &kp H           &kp COMMA     &kp DOT       &kp FSLH
+&kp Z          &kp X         &kp C         &kp V           &kp B        &kp N         &kp M           &kp COMMA     &kp DOT       &kp FSLH
                &kp F3        &kp DEL       &lt 1 RET       &lt 3 TAB    &lt 4 BSPC    &lt 2 SPACE     &kp SQT       &kp F4
             >;
         };
