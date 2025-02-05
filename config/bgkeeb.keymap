@@ -4,6 +4,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -11,19 +14,19 @@
 
         default {
             bindings = <
-&kp Q             &kp W             &kp E          &kp R          &kp T          &kp Y                    &kp U                  &lt 6 I            &kp O         &kp P
-&mt LEFT_GUI A    &mt LEFT_ALT S    &mt LSHFT D    &mt LCTRL F    &kp G          &kp H                    &mt RCTRL J            &mt RIGHT_ALT K    &mt RGUI L    &mt RIGHT_GUI SEMICOLON
-&kp Z             &kp X             &kp C          &kp V          &kp B          &kp N                    &kp M                  &kp COMMA          &kp DOT       &kp FSLH
-                  &kp F3            &kp DEL        &lt 2 TAB      &lt 1 SPACE    &mt RIGHT_SHIFT ENTER    &mt RCTRL BACKSPACE    &lt 3 ESCAPE       &kp F4
+&kp Q             &kp W             &kp E                  &kp R                 &kp T          &kp Y                    &kp U                          &lt 6 I              &kp O              &kp P
+&mt LEFT_GUI A    &mt LEFT_ALT S    &mt LEFT_SHIFT D       &mt LEFT_CONTROL F    &kp G          &kp H                    &mt RIGHT_CONTROL J            &mt RIGHT_SHIFT K    &mt RIGHT_ALT L    &mt RIGHT_GUI SEMICOLON
+&kp Z             &kp X             &kp C                  &kp V                 &kp B          &kp N                    &kp M                          &kp COMMA            &kp DOT            &kp FSLH
+                  &none             &mt LEFT_GUI DELETE    &lt 2 TAB             &lt 1 SPACE    &mt RIGHT_SHIFT ENTER    &mt RIGHT_CONTROL BACKSPACE    &lt 3 ESCAPE         &none
             >;
         };
 
         nav {
             bindings = <
-&kp ESC     &kp PG_UP    &kp UP      &kp PG_DN    &trans     &kp ASTRK    &kp N7       &kp N8     &kp N9    &kp MINUS
-&kp HOME    &kp LEFT     &kp DOWN    &kp RIGHT    &kp END    &kp FSLH     &kp N4       &kp N5     &kp N6    &kp PLUS
-&trans      &trans       &trans      &trans       &trans     &kp EQUAL    &kp N1       &kp N2     &kp N3    &kp N0
-            &trans       &trans      &trans       &kp TAB    &kp BSPC     &kp SPACE    &kp DOT    &trans
+&kp ESC         &kp LG(F2)        &kp LG(F1)        &kp LG(F3)         &msc SCRL_UP      &kp HOME          &kp PAGE_DOWN     &kp PAGE_UP      &kp END            &none
+&none           &mkp RCLK         &mmv MOVE_UP      &mkp LCLK          &msc SCRL_DOWN    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp UP_ARROW     &kp RIGHT_ARROW    &none
+&kp CAPSLOCK    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &kp CAPSLOCK      &kp LG(N)         &kp LS(LC(C))     &kp LC(LS(V))    &none              &none
+                &none             &none             &none              &trans            &mkp LCLK         &mkp MCLK         &mkp RCLK        &none
             >;
         };
 
@@ -31,8 +34,8 @@
             bindings = <
 &kp NUMBER_4    &kp NUMBER_2    &kp NUMBER_3         &kp NUMBER_1     &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_0           &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_7
 &kp CARET       &kp TILDE       &kp DOUBLE_QUOTES    &kp COLON        &kp AMPERSAND    &kp PLUS        &kp MINUS              &kp ASTERISK     &kp AT_SIGN     &kp EXCLAMATION
-&kp CAPS        &kp GRAVE       &kp SINGLE_QUOTE     &kp SEMICOLON    &kp DOLLAR       &kp EQUAL       &kp UNDERSCORE         &kp HASH         &kp PERCENT     &kp QUESTION
-                &trans          &trans               &trans           &trans           &kp PIPE        &mt LCTRL BACKSPACE    &kp BACKSLASH    &trans
+&kp CAPSLOCK    &kp GRAVE       &kp SINGLE_QUOTE     &kp SEMICOLON    &kp DOLLAR       &kp EQUAL       &kp UNDERSCORE         &kp HASH         &kp PERCENT     &kp QUESTION
+                &none           &none                &trans           &none            &kp PIPE        &mt LCTRL BACKSPACE    &kp BACKSLASH    &none
             >;
         };
 
