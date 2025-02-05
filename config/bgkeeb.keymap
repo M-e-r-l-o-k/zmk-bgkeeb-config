@@ -12,7 +12,7 @@
         default {
             bindings = <
 &kp Q          &kp W         &kp E         &kp R           &kp T        &kp Y         &kp U           &lt 6 I       &kp O         &kp P
-&mt LCTRL A    &mt LGUI R    &mt LALT S    &mt LSHIFT T    &kp G        &lt 5 M       &mt RSHIFT N    &mt RALT E    &mt RGUI I    &mt RCTRL O
+&mt LCTRL A    &mt LGUI R    &mt LALT S    &mt LSHIFT T    &kp F        &lt 5 M       &mt RSHIFT N    &mt RALT E    &mt RGUI I    &mt RCTRL O
 &kp Z          &kp X         &kp C         &kp V           &kp B        &kp N         &kp M           &kp COMMA     &kp DOT       &kp FSLH
                &kp F3        &kp DEL       &lt 1 RET       &lt 3 TAB    &lt 4 BSPC    &lt 2 SPACE     &kp SQT       &kp F4
             >;
