@@ -77,9 +77,9 @@
 
         nav {
             bindings = <
-&kp ESC         &kp LG(F2)        &kp LG(F1)        &kp LG(F3)         &msc SCRL_UP      &kp HOME          &kp PAGE_DOWN     &kp PAGE_UP      &kp END            &none
-&none           &mkp RCLK         &mmv MOVE_UP      &mkp LCLK          &msc SCRL_DOWN    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp UP_ARROW     &kp RIGHT_ARROW    &none
-&kp CAPSLOCK    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &kp CAPSLOCK      &kp LG(N)         &kp LS(LC(C))     &kp LC(LS(V))    &none              &none
+&kp ESC         &mkp RCLK         &mmv MOVE_UP      &mkp LCLK          &msc SCRL_UP      &kp HOME          &kp PAGE_DOWN     &kp PAGE_UP      &kp END            &none
+&none           &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &msc SCRL_DOWN    &kp LEFT_ARROW    &kp DOWN_ARROW    &kp UP_ARROW     &kp RIGHT_ARROW    &none
+&kp CAPSLOCK    &kp LG(F2)        &kp LG(F1)        &kp LG(F3)         &kp CAPSLOCK      &kp LG(N)         &kp LS(LC(C))     &kp LC(LS(V))    &kp INSERT         &none
                 &none             &none             &none              &trans            &mkp LCLK         &mkp MCLK         &mkp RCLK        &none
             >;
         };
@@ -95,10 +95,10 @@
 
         func {
             bindings = <
-&kp F4    &kp F2            &kp F3              &kp F1        &kp F5               &kp F6                  &kp F10              &kp F8         &kp F9        &kp F7
-&none     &kp K_PREVIOUS    &kp K_PLAY_PAUSE    &kp K_NEXT    &kp C_VOL_UP         &kp C_BRIGHTNESS_INC    &kp LG(F12)          &kp LG(F4)     &kp F11       &kp F12
-&none     &none             &kp LG(F10)         &kp C_MUTE    &kp C_VOLUME_DOWN    &kp C_BRIGHTNESS_DEC    &kp LG(SEMICOLON)    &kp LG(F11)    &kp LG(F5)    &kp LG(F6)
-          &none             &none               &none         &none                &none                   &none                &trans         &none
+&kp F4    &kp F2        &kp F3         &kp F1        &kp F5               &kp F6                  &kp F10              &kp F8         &kp F9        &kp F7
+&none     &kp LG(F7)    &kp LG(F8)     &kp LG(F9)    &kp C_VOL_UP         &kp C_BRIGHTNESS_INC    &kp LG(F12)          &kp LG(F4)     &kp F11       &kp F12
+&none     &none         &kp LG(F10)    &kp C_MUTE    &kp C_VOLUME_DOWN    &kp C_BRIGHTNESS_DEC    &kp LG(SEMICOLON)    &kp LG(F11)    &kp LG(F5)    &kp LG(F6)
+          &none         &none          &none         &none                &none                   &none                &trans         &none
             >;
         };
 
