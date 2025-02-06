@@ -6,8 +6,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-CONFIG_ZMK_POINTING=y
-
 / {
     combos {
         compatible = "zmk,combos";
