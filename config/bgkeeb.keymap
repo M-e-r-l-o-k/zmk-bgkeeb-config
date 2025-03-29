@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+CONFIG_ZMK_BLE_CLEAR_BONDS_ON_START=y
+
 &lt { tapping-term-ms = <150>; };
 
 / {
