@@ -9,9 +9,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define UNICODE_TARGET_OS 1
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/unicode.h>
 
-&default_behavior_manager {
+/ {
     behaviors {
         unicode: unicode {
             compatible = "zmk,behavior-unicode";
