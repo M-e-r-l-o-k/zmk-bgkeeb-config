@@ -51,7 +51,7 @@
         };
 
         d2 {
-            bindings = <&kp SLASH>;
+            bindings = <&kp PIPE>;
             key-positions = <15 16>;
         };
 
@@ -151,10 +151,10 @@
 
         sym {
             bindings = <
-&kp NUMBER_4    &kp NUMBER_2    &kp NUMBER_3         &kp NUMBER_1     &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_0           &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_7
-&kp CARET       &kp TILDE       &kp DOUBLE_QUOTES    &kp COLON        &kp AMPERSAND    &kp PLUS        &kp MINUS              &kp ASTERISK     &kp AT_SIGN     &kp EXCLAMATION
-&kp CAPSLOCK    &kp GRAVE       &kp SINGLE_QUOTE     &kp SEMICOLON    &kp DOLLAR       &kp EQUAL       &kp UNDERSCORE         &kp HASH         &kp PERCENT     &kp QUESTION
-                &none           &none                &trans           &none            &kp PIPE        &mt LCTRL BACKSPACE    &kp BACKSLASH    &none
+&kp NUMBER_4    &kp NUMBER_2    &kp NUMBER_3         &kp NUMBER_1     &kp NUMBER_5     &kp NUMBER_6    &kp NUMBER_0      &kp NUMBER_8    &kp NUMBER_9    &kp NUMBER_7
+&kp CARET       &kp TILDE       &kp DOUBLE_QUOTES    &kp COLON        &kp AMPERSAND    &kp PLUS        &kp MINUS         &kp ASTERISK    &kp AT_SIGN     &kp EXCLAMATION
+&kp CAPSLOCK    &kp GRAVE       &kp SINGLE_QUOTE     &kp SEMICOLON    &kp DOLLAR       &kp EQUAL       &kp UNDERSCORE    &kp HASH        &kp PERCENT     &kp QUESTION
+                &none           &none                &trans           &none            &kp COMMA       &kp BACKSPACE     &kp DOT         &none
             >;
         };
 
