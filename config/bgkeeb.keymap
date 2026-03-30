@@ -121,6 +121,8 @@
 &kp Z    &kp X    &kp C                  &kp V    &kp B        &kp N        &kp M                       &kp COMMA       &kp DOT    &kp FSLH
          &none    &mt LEFT_GUI ESCAPE    &mo 5    &kp SPACE    &kp ENTER    &mt LEFT_SHIFT BACKSPACE    &lt 3 DELETE    &none
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         nav {
